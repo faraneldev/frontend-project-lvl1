@@ -1,6 +1,7 @@
 name: Check project
 on:
-  - push
+  push:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +16,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: lint
+      - name: Run Linter
         run: |
           make lint
