@@ -1,0 +1,9 @@
+name: Check project
+on:
+  - push
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint
+        run: make lint
