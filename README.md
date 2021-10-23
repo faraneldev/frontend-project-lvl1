@@ -8,3 +8,6 @@
 
 ### Brain-calc game
 [![asciicast](https://asciinema.org/a/kg29fieVpxvrVjRH3vRbiwEw8.svg)](https://asciinema.org/a/kg29fieVpxvrVjRH3vRbiwEw8)
+
+### Brain-gcd game
+[![asciicast](https://asciinema.org/a/Tcb05LUIK82NRIE6RPuKy3OPo.svg)](https://asciinema.org/a/Tcb05LUIK82NRIE6RPuKy3OPo)

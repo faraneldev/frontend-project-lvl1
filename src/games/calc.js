@@ -1,14 +1,14 @@
-import getRandomNumber from '../lib/random.js';
+import getRandom from '../lib/random.js';
 import runGame from '../index.js';
 
 const maxNumber = 50;
 const rules = 'What is the result of the expression?';
 
 const getQuestionData = () => {
-  const firstNumber = getRandomNumber(1, maxNumber);
-  const secondNumber = getRandomNumber(1, maxNumber);
+  const firstNumber = getRandom(1, maxNumber);
+  const secondNumber = getRandom(1, maxNumber);
   const operators = ['+', '-', '*'];
-  const operator = operators[getRandomNumber(0, operators.length - 1)];
+  const operator = operators[getRandom(0, operators.length - 1)];
   let correctAnswer;
   switch (operator) {
     case '+':
