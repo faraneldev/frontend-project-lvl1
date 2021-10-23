@@ -10,7 +10,7 @@
 [![asciicast](https://asciinema.org/a/kg29fieVpxvrVjRH3vRbiwEw8.svg)](https://asciinema.org/a/kg29fieVpxvrVjRH3vRbiwEw8)
 
 ### Brain-gcd game
-[![asciicast](https://asciinema.org/a/Tcb05LUIK82NRIE6RPuKy3OPo.svg)](https://asciinema.org/a/Tcb05LUIK82NRIE6RPuKy3OPo)
+[![asciicast](https://asciinema.org/a/zGCxkwhtR67KbX4jZMGdZr6PY.svg)](https://asciinema.org/a/zGCxkwhtR67KbX4jZMGdZr6PY)
 
 ### Brain-progression game
 [![asciicast](https://asciinema.org/a/3Wl7ZeYlRyR2yBUbARMnJIwAy.svg)](https://asciinema.org/a/3Wl7ZeYlRyR2yBUbARMnJIwAy)
