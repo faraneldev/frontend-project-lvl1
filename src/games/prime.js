@@ -8,7 +8,7 @@ const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getQuestionData = () => {
   const randomNumber = getRandom(1, maxNumber);
   const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
-  return [`${randomNumber}`, correctAnswer];
+  return [randomNumber, correctAnswer];
 };
 
 export default () => runGame(rules, getQuestionData);
