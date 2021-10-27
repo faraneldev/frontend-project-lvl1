@@ -5,8 +5,10 @@ const maxNumber = 50;
 const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 const getQuestionData = () => {
+  const isEven = (num) => num % 2 === 0;
+
   const randomNumber = getRandom(1, maxNumber);
-  const correctAnswer = randomNumber % 2 === 0 ? 'yes' : 'no';
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return [randomNumber, correctAnswer];
 };
 
